@@ -29,7 +29,7 @@ function Header() {
       <Link to="/">
         <img
           className="header__logo"
-          src="https://cdn.shopify.com/s/files/1/0597/0244/4203/files/amazelogo_480x.png?v=1629749076"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
         />
       </Link>
 

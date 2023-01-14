@@ -11,7 +11,7 @@
 .header__logo {
   width: 100px;
   object-fit: contain;
-  /* margin: 0 20px; */
+   margin: 0 20px; 
   height: 88px;
   margin-top: 28px;
   

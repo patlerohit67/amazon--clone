@@ -53,16 +53,16 @@ function Footer() {
             </p>
 
             <div className="social-icons">
-              <a href="https://www.facebook.com/namrata.nakhale.3">
+              <a href="">
               <Facebook />
               </a>
-              <a href="https://instagram.com/namratanakhale?igshid=YmMyMTA2M2Y=">
+              <a href="">
               <Instagram />
               </a>
-              <a href="https://twitter.com/i/flow/single_sign_on">
+              <a href="">
               <Twitter />
               </a>
-              <a href="https://t.me/namratanakhale3899">
+              <a href="">
               <Telegram />
               </a>
             </div>
