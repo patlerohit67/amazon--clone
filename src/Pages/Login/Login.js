@@ -39,7 +39,7 @@ function Login() {
             <Link to='/'>
                 <img
                     className="login__logo"
-                    src='https://cdn.shopify.com/s/files/1/0597/0244/4203/files/amazelogo_480x.png?v=1629749076' 
+                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' 
                 />
             </Link>
 
