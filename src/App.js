@@ -4,7 +4,7 @@ import Header from "./Pages/Header/Header";
 import Home from "./Pages/Home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Checkout from "./Pages/Checkout/Checkout";
-import Login from "./Pages/Login/Login"
+import Login from "./Pages/Login/Login";
 import Payment from "./Pages/Payment/Payment";
 import Orders from "./Pages/Orders/Orders";
 import Footer from "./Pages/Footer/Footer";
@@ -14,7 +14,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
 const promise = loadStripe(
-  "pk_test_51MC4XySDkAcNApaVmyecmEmQLYeUaRhuaMSHwXj8oE7WGscdms2Z6vX0nRQolkfXuiGQIAT1CzxqxPSXqLAFssqt009eTqViW5"
+  "pk_test_51MTgxeSJT8rvccaQtWKrljLwGlEsxNlpn2nZOvkBdXwdE7XKO9G9s3Q3NHZQmGOMZCmeTQpQgii9UDrhNRCnUAim002oVX8Pvb"
 );
 
 function App() {

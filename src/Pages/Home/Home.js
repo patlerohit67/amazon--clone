@@ -14,26 +14,51 @@ function Home() {
 
         <div className="home__row">
           <Product
-            id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
-          />
+              title="Lava Blaze 5G (Glass Green, 4GB RAM, UFS 2.2 128GB Storage) | 5G Ready | 50MP AI Triple Camera | 5000 mAh Battery"
+              price={10999.00}
+              image="https://m.media-amazon.com/images/I/41NFpBMSe4L._AC_SR400,600_.jpg"
+              rating={4} />
           <Product
             id="49538094"
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
             price={239.0}
+            Quantity={1}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
 
         <div className="home__row">
+                    <Product
+                        id="4903850"
+                        title="Gold Plated Jewellery Set for Women (Green)(rrsd7818s)"
+                        price={38.99}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/71iuaEwI58L._AC_UL320_.jpg"
+                    />
+                    <Product
+                        id="23445930"
+                        title="BANGALORE REFINERY
+                        24k (999) 20 gm Yellow Gold Bar"
+                        price={1196.99}
+                        rating={5}
+                        image="https://m.media-amazon.com/images/I/61DHkMe6omL._AC_UL320_.jpg"
+                    />
+                    <Product
+                        id="3254354345"
+                        title="JivanOrganics A2 Ghee  100% Desi Ghee | Natural & Healthy, Non-GMO | Lab Tested (500ML)"
+                        price={84.99}
+                        rating={4}
+                        image="https://images-eu.ssl-images-amazon.com/images/I/41GKHXlDo1L._AC_SX184_.jpg"
+                    />
+                </div>
+
+        <div className="home__row">
           <Product
             id="4903850"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
             price={199.99}
+            Quantity={1}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
           />
@@ -41,6 +66,7 @@ function Home() {
             id="23445930"
             title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
             price={98.99}
+            Quantity={1}
             rating={4}
             image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           />
@@ -48,6 +74,7 @@ function Home() {
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
             price={598.99}
+            Quantity={1}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
@@ -58,10 +85,36 @@ function Home() {
             id="90829332"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
             price={1094.98}
+            Quantity={1}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
+
+        <div className="home__row">
+                    <Product
+                        id="4903850"
+                        title="Sanjeevini KSRLPS Channapatna Wooden Christmas Crib Made by Karnataka SHG Women"
+                        price={99.99}
+                        rating={3}
+                        image="https://m.media-amazon.com/images/I/61PP8RgqZBL._AC_UL320_.jpg"
+                    />
+                    <Product
+                        id="23445930"
+                        title="Sanjeevini KSRLPS Rosewood Inlay Village River Bank Evening Scenery- Wall Hanging"
+                        price={198.9}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/81-v8kThJSL._AC_UL320_.jpg"
+                    />
+                    <Product
+                        id="3254354345"
+                        title="Resin Handcrafted Ganesha Sitting Position Decorative Showpiece Idol Statue | God Idol - Pack of 1"
+                        price={199}
+                        rating={5}
+                        image="https://m.media-amazon.com/images/I/41sjZy0GxsL._AC_UL320_.jpg"
+                    />
+                </div>
+
       </div>
     </div>
   );
